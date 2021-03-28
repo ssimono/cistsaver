@@ -33,11 +33,19 @@ footer {
   width: 100%;
 }
 
+.close {
+  border-top: 5px solid dodgerblue;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+}
+
 form {
   color: black;
   font-family: sans-serif;
   background-color: lightsteelblue;
-  border-top: 5px solid dodgerblue;
   display: flex;
   flex-direction: column;
   padding: 15px 15px 30px 15px;

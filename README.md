@@ -24,4 +24,5 @@ Note that the clock is in 24 hours format and the date has the months first. Som
 Configuration
 -------------
 
-Some settings can be tuned on the form that opens when you click on the main clock.
+Some settings can be tuned on the form that opens when you click on the lower date section.
+You can also go fullscreen by double-clicking on the main clock.

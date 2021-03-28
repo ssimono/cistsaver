@@ -96,6 +96,18 @@ function applySetting({ target, detail }) {
   }
 }
 
+function toggleFullScreen(goFullScreen) {
+  if (goFullScreen) {
+    document.documentElement.requestFullscreen()
+  } else if (document.fullscreenElement) {
+    document.exitFullscreen();
+  }
+}
+
+function toggleFooter() {
+  document.querySelector('footer').classList.toggle('hidden')
+}
+
 export default function main() {
   const settingsForm = document.getElementById('settings')
   const timeClock = document.createElement('cistercian-number')
@@ -122,9 +134,12 @@ export default function main() {
   settingsForm.addEventListener('setting-changed', setFormValue)
   document.body.addEventListener('setting-changed', applySetting)
 
-  timeClock.addEventListener('click', () => {
-    document.querySelector('footer').classList.toggle('hidden')
-  })
+  timeClock.addEventListener('dblclick', () => { toggleFullScreen(true) })
+  timeClock.addEventListener('click', () => { toggleFullScreen(false) })
+
+  dateClock.addEventListener('click', toggleFooter)
+  yearClock.addEventListener('click', toggleFooter)
+  document.querySelector('.close').addEventListener('click', toggleFooter)
 
   readSettings(settingsForm)
 
