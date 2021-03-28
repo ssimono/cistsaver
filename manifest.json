@@ -1,0 +1,16 @@
+{
+  "name": "Cistsaver",
+  "short_name": "Cistsaver",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#555555",
+  "description": "A screensaver clock based on cistercian numerals",
+  "icons": [
+    {
+      "src": ".\/favicon.ico",
+      "sizes": "32x32",
+      "type": "image\/ico",
+      "density": "0.75"
+    }
+  ]
+}
