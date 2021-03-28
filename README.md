@@ -24,4 +24,4 @@ Note that the clock is in 24 hours format and the date has the months first. Som
 Configuration
 -------------
 
-Some settings can be tuned on the settings form that opens when you click on the main clock. As fo now, this is not persisted, so a page refresh will reset to the defaults.
+Some settings can be tuned on the form that opens when you click on the main clock.
