@@ -1,0 +1,14 @@
+{
+  "name": "cistercian-screensaver",
+  "version": "1.0.0",
+  "description": "Cistercian screensaver",
+  "author": "Simon Alfassa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssimono/cistsaver"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cistercian-numerals": "^1.1.0"
+  }
+}
