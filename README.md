@@ -17,7 +17,7 @@ Considering the following display:
 
 ![screenshot.png](screenshot.png)
 
-If you are familiar enough with the cistercian numerical system, you will recognize the number `1827` in very large, with underneath the numbers `328` and `2021`. You probably guessed already, it shows the current time: _18:27_ and the date: _March 28th 2021_.
+If you are familiar enough with the cistercian numerical system, you will recognize the number `1727` in very large, with underneath the numbers `328` and `2021`. You probably guessed already, it shows the current time: _17:27_ and the date: _March 28th 2021_.
 
 Note that the clock is in 24 hours format and the date has the months first. Some more American options might be added later.
 
