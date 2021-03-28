@@ -8,7 +8,7 @@ It uses the great [cisterian-numerals](https://github.com/hsablonniere/cistercia
 See it live
 -----------
 
-**Coming soon**
+https://ssimono.github.io/cistsaver/
 
 How to read it
 --------------
@@ -20,3 +20,8 @@ Considering the following display:
 If you are familiar enough with the cistercian numerical system, you will recognize the number `1827` in very large, with underneath the numbers `328` and `2021`. You probably guessed already, it shows the current time: _18:27_ and the date: _March 28th 2021_.
 
 Note that the clock is in 24 hours format and the date has the months first. Some more American options might be added later.
+
+Configuration
+-------------
+
+Some settings can be tuned on the settings form that opens when you click on the main clock. As fo now, this is not persisted, so a page refresh will reset to the defaults.
